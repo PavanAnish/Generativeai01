@@ -25,4 +25,6 @@ def handle_conv():
         print("Bot:",result)
         context +=f"\nUser: {user_input}\nAI: {result}"
 if __name__ == "__main__":
+   print("hi")
     handle_conv()
+
