@@ -17,15 +17,16 @@ def image_to_byte_array(image: Image) -> bytes:
 API_KEY = os.environ.get("GOOGLE_API_KEY")
 genai.configure(api_key=API_KEY)
 
-# st.image("./logo.png", width=200)
-st.header("Max AI")
+#st.image("1146-zoro-sword.png", width=200)
+st.header("ZORO AI")
 st.write("")
 
 gemini_pro, gemini_flash = st.tabs(["Gemini Pro", "Gemini-flash"])
 
 def main():
     with gemini_pro:
-        st.header("Hello Welcome What is question...?")
+        st.header("Hello Welcome!!")
+        st.subheader(" What is your question...?")
         st.write("")
 
     prompt = st.text_input("Enter your question please...", placeholder="Question", label_visibility="visible")
