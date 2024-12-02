@@ -20,7 +20,7 @@ genai.configure(api_key=API_KEY)
 image= Image.open('C:/Users/PAVAN/testone/images-removebg-preview (1).png')
 st.image(image,width=170)
 st.header("ZORO AI")
-st.markdown(":gray[###### 僕はヒーローじゃない。俺はただの剣士]")
+st.markdown(":gray[僕はヒーローじゃない。俺はただの剣士]")
 st.write("")
 
 gemini_pro, gemini_flash = st.tabs(["Gemini Pro", "Gemini-flash"])
